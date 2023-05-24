@@ -13,4 +13,5 @@ FunHDDC : R package for clustering functional data
 
 Corresponding papers:<br>
 A. Schmutz, J. Jacques, C. Bouveyron, L. Chèze and P. Martin (2020). Clustering multivariate functional data in group-specific functional subspaces, Computational Statistics, 35, 1101-1131. <a href="https://hal.inria.fr/hal-01652467">HAL</a>
+
 C.Bouveyron and J.Jacques (2011), Model-based Clustering of Time Series in Group-specific Functional Subspaces, Advances in Data Analysis and Classification, 5[4], 281-300.
