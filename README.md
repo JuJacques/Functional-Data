@@ -17,4 +17,5 @@ A. Schmutz, J. Jacques, C. Bouveyron, L. Chèze and P. Martin (2020). Clustering
 C.Bouveyron and J.Jacques (2011), Model-based Clustering of Time Series in Group-specific Functional Subspaces, Advances in Data Analysis and Classification, 5[4], 281-300.
 
 ## Multivariate functional data set
+![alt text]([http://url/to/img.png](https://github.com/JuJacques/Functional-Data/blob/main/cycling_data.pdf)https://github.com/JuJacques/Functional-Data/blob/main/cycling_data.pdf)
 
