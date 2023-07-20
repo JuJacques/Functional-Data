@@ -17,7 +17,7 @@ A. Schmutz, J. Jacques, C. Bouveyron, L. Chèze and P. Martin (2020). Clustering
 C.Bouveyron and J.Jacques (2011), Model-based Clustering of Time Series in Group-specific Functional Subspaces, Advances in Data Analysis and Classification, 5[4], 281-300.
 
 ## Multivariate functional data set
-The [cycling](cycling.Rdata) data set provides 216 9-variate functional data, observed at 1800 regular time points. To use it, please tell me and cite 
+The [cycling](cycling.Rdata) data set provides 216 observations of 9 curves. Each curve is sampled at 1800 regular time points. To use it, please tell me and cite 
 J. Jacques, S. Samardzic (2022). Analyzing cycling sensors data through ordinal logistic regression with functional covariates. Journal of the Royal Statistical Society, Series C, 71[4], 969-986.
 
 ![cycling_data](cycling_data.png)
