@@ -2,6 +2,11 @@
 
 ## Regression with functional covariates
 
+### Functional output and functional covariates
+
+J.S. Tamo Tchomgui, J. Jacques, V. Barriac, G. Fraysse, S. Chrétien (2024). A mixture of experts regression model for functional response with functional covariates. To appear in Statistics and Computing  <a href="https://hal.science/hal-04529923">web</a>
+
+### Ordinal output and functional covariates
 FREG : R package for linear, ordinal and logistic regression with functional covariates
 
 Corresponding paper for the ordinal case:<br>
