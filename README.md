@@ -4,7 +4,12 @@
 
 ### Functional output and functional covariates
 
-code available <a href="https://github.com/Stevens05/PenFFR">here</a> 
+1. FFR, PenFFR: code available <a href="https://github.com/Stevens05/PenFFR">here</a> 
+
+Corresponding paper:<br>
+J.S. Tamo Tchomgui, J. Jacques, V. Barriac, G. Fraysse, S. Chrétien (2023). A Penalized Spline Estimator for Functional Linear Regression with Functional Response.  <a href="https://hal.science/hal-04120709">web</a>
+
+2. FFMoE / PenFFMoE: a mixture approach 
 
 Corresponding paper:<br>
 J.S. Tamo Tchomgui, J. Jacques, V. Barriac, G. Fraysse, S. Chrétien (2024). A mixture of experts regression model for functional response with functional covariates. To appear in Statistics and Computing  <a href="https://hal.science/hal-04529923">web</a>
