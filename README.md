@@ -24,6 +24,18 @@ A. Schmutz, J. Jacques, C. Bouveyron, L. Chèze and P. Martin (2020). Clustering
 
 C.Bouveyron and J.Jacques (2011), Model-based Clustering of Time Series in Group-specific Functional Subspaces, Advances in Data Analysis and Classification, 5[4], 281-300.
 
+FunFEM : R package for co-clustering functional data, <a href="https://cran.r-project.org/web/packages/funFEM/">available on CRAN</a>
+
+Corresponding papers:<br>
+C. Bouveyron, E. Côme and J. Jacques (2015), The discriminative functional mixture model for the analysis of bike sharing systems, Annals of Applied Statistics, 9[4], 1726-1760. <a href="http://hal.archives-ouvertes.fr/hal-01024186/fr/">HAL</a>
+
+## Functional data co-clustering
+
+FunLBM : R package for co-clustering functional data, <a href="https://cran.r-project.org/web/packages/funLBM/">available on CRAN</a>
+
+Corresponding papers:<br>
+C. Bouveyron, L. Bozzi L., J. Jacques J. and F-X. Jollois (2018). The Functional Latent Block Model for the Co-Clustering of Electricity Consumption Curves, Journal of the Royal Statistical Society, Series C, 67 [4], 897-915. <a href="https://hal.inria.fr/hal-01533438">HAL</a>
+
 ## Multivariate functional data set
 The [cycling](cycling.Rdata) data set provides 216 observations of 9 curves. Each curve is sampled at 1800 regular time points. To use it, please tell me and cite 
 J. Jacques, S. Samardzic (2022). Analyzing cycling sensors data through ordinal logistic regression with functional covariates. Journal of the Royal Statistical Society, Series C, 71[4], 969-986.
