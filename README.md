@@ -17,14 +17,14 @@ J. Jacques, S. Samardzic (2022). Analyzing cycling sensors data through ordinal 
 
 ## Functional data clustering
 
-FunHDDC : R package for clustering functional data
+1. FunHDDC : R package for clustering functional data
 
 Corresponding papers:<br>
 A. Schmutz, J. Jacques, C. Bouveyron, L. Chèze and P. Martin (2020). Clustering multivariate functional data in group-specific functional subspaces, Computational Statistics, 35, 1101-1131. <a href="https://hal.inria.fr/hal-01652467">HAL</a>
 
 C.Bouveyron and J.Jacques (2011), Model-based Clustering of Time Series in Group-specific Functional Subspaces, Advances in Data Analysis and Classification, 5[4], 281-300.
 
-FunFEM : R package for co-clustering functional data, <a href="https://cran.r-project.org/web/packages/funFEM/">available on CRAN</a>
+2. FunFEM : R package for co-clustering functional data, <a href="https://cran.r-project.org/web/packages/funFEM/">available on CRAN</a>
 
 Corresponding papers:<br>
 C. Bouveyron, E. Côme and J. Jacques (2015), The discriminative functional mixture model for the analysis of bike sharing systems, Annals of Applied Statistics, 9[4], 1726-1760. <a href="http://hal.archives-ouvertes.fr/hal-01024186/fr/">HAL</a>
