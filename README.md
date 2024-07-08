@@ -15,7 +15,8 @@ Corresponding paper:<br>
 J.S. Tamo Tchomgui, J. Jacques, V. Barriac, G. Fraysse, S. Chrétien (2024). A mixture of experts regression model for functional response with functional covariates. To appear in Statistics and Computing  <a href="https://hal.science/hal-04529923">HAL</a>
 
 ### Ordinal output and functional covariates
-FREG : R package for linear, ordinal and logistic regression with functional covariates
+
+1. FREG : R package for linear, ordinal and logistic regression with functional covariates
 
 Corresponding paper for the ordinal case:<br>
 J. Jacques, S. Samardzic (2022). Analyzing cycling sensors data through ordinal logistic regression with functional covariates. Journal of the Royal Statistical Society, Series C, 71[4], 969-986. <a href="https://hal.archives-ouvertes.fr/hal-03107427n">HAL</a>
@@ -36,13 +37,14 @@ C. Bouveyron, E. Côme and J. Jacques (2015), The discriminative functional mixt
 
 ## Functional data co-clustering
 
-FunLBM : R package for co-clustering functional data, available on <a href="https://cran.r-project.org/web/packages/funLBM/">CRAN</a>
+1. FunLBM : R package for co-clustering functional data, available on <a href="https://cran.r-project.org/web/packages/funLBM/">CRAN</a>
 
 Corresponding papers:<br>
 C. Bouveyron, L. Bozzi L., J. Jacques J. and F-X. Jollois (2018). The Functional Latent Block Model for the Co-Clustering of Electricity Consumption Curves, Journal of the Royal Statistical Society, Series C, 67 [4], 897-915. <a href="https://hal.inria.fr/hal-01533438">HAL</a>
 
 ## Multivariate functional data set
-The [cycling](cycling.Rdata) data set provides 216 observations of 9 curves. Each curve is sampled at 1800 regular time points. To use it, please tell me and cite: 
+
+1. The [cycling](cycling.Rdata) data set provides 216 observations of 9 curves. Each curve is sampled at 1800 regular time points. To use it, please tell me and cite: 
 
 J. Jacques, S. Samardzic (2022). Analyzing cycling sensors data through ordinal logistic regression with functional covariates. Journal of the Royal Statistical Society, Series C, 71[4], 969-986.
 
