@@ -14,7 +14,7 @@ J.S. Tamo Tchomgui, J. Jacques, V. Barriac, G. Fraysse, S. Chrétien (2023). A P
 Corresponding paper:<br>
 J.S. Tamo Tchomgui, J. Jacques, V. Barriac, G. Fraysse, S. Chrétien (2024). A mixture of experts regression model for functional response with functional covariates. To appear in Statistics and Computing  <a href="https://hal.science/hal-04529923">HAL</a>
 
-### Ordinal output and functional covariates
+### Continuous, ordinal or nominal categorical output and functional covariates
 
 1. FREG : R package for linear, ordinal and logistic regression with functional covariates
 
