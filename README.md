@@ -4,7 +4,7 @@
 
 ### Functional output and functional covariates
 
-1. FFR, PenFFR: code available <a href="https://github.com/Stevens05/PenFFR">here</a> 
+1. FFR, PenFFR: code available <a href="https://github.com/Orange-OpenSource/penffr">here</a> 
 
 Corresponding paper:<br>
 J.S. Tamo Tchomgui, J. Jacques, V. Barriac, G. Fraysse, S. Chrétien (2023). A Penalized Spline Estimator for Functional Linear Regression with Functional Response.  <a href="https://hal.science/hal-04120709">HAL</a>
