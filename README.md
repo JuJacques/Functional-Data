@@ -50,3 +50,7 @@ J. Jacques, S. Samardzic (2022). Analyzing cycling sensors data through ordinal 
 
 ![cycling_data](cycling_data.png)
 
+Publications using this data set:<br>
+S. Weinberger , J. Cugliari , A. Le Cain (2025). Ordinal regression for preference learning in wearables using sensor data. Expert Systems with Applications, In press, https://hal.science/hal-05038326v1
+
+
