@@ -1,5 +1,7 @@
 # Functional-Data
 
+slides of the tutorial at the 2026 Training school 2026 on Learning from Complex Data: Statistical and AI Perspectives, organized at University of Calabria, Cosenza, Italy: FDA-tutorial.pdf
+
 ## Regression with functional covariates
 
 ### Functional output and functional covariates
