@@ -25,7 +25,8 @@ J. Jacques, S. Samardzic (2022). Analyzing cycling sensors data through ordinal 
 
 ## Functional data clustering
 
-1. FunHDDC : R package for clustering functional data
+1. FunHDDC : R package for clustering functional data, available on <a href="https://cran.r-project.org/web/packages/funHDDC/">CRAN</a>
+
 
 Corresponding papers:<br>
 A. Schmutz, J. Jacques, C. Bouveyron, L. Chèze and P. Martin (2020). Clustering multivariate functional data in group-specific functional subspaces, Computational Statistics, 35, 1101-1131. <a href="https://hal.inria.fr/hal-01652467">HAL</a>
