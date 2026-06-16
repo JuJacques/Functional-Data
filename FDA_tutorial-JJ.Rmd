@@ -564,10 +564,13 @@ where
 - $\boldsymbol{W}=\int_0^T\boldsymbol{\phi(t)}'\boldsymbol{\phi(t)}dt$ is the matrix of inner product between basis function
 
 ### funHDDC - Multivariate Functional PCA (MFPCA)
-The MFPCA scores are obtained by:
+The MFPCA scores are obtained by$^\dagger$:
 $$Z_{j} = \boldsymbol{C}\boldsymbol{W}b'_j \in\mathbb{R}^n$$
 Consequently, each multivariate curve $\boldsymbol{x}_i$ can be identified by its finite-dimensional MFPCA scores $Z_i=(Z_{ij})_{1\leq j \leq \sum_jR_j}$
 
+\vfill
+\small
+$^\dagger$ *Jacques and C.Preda (2014), Model-based clustering of multivariate functional data, Computational Statistics and Data Analysis, 71, 92-106.*
 
 ### funHDDC - Probability distribution assumption
 The Multivariate FPCA scores $Z_i$ are assumed to follow a mixture of Gaussian
@@ -673,7 +676,6 @@ lines(mean.fd(s2),col=2,lty=1,lwd=3)
 
 ### Lab 3: functional data clustering
 \small
-Map of the results
 ```{r, out.width='50%'}
 library(maps)
 map("world", "canada")
@@ -754,6 +756,28 @@ Depending on the nature of $Y$ and $X$, we talk about:
 | function | scalar       | function-on-scalar   |
 | function | function     | function-on-function |
 
+
+
+### Example of function-on-function regression
+\small
+My goal is to explain **the power I develop** during my cycling session according to my hearth rate, my pedalling cadence, my speed, the slope of the road, the outdoor temperature and the altitude
+
+```{r, echo=F, out.height='80%'}
+load('cycling9.Rdata')
+par(mfrow=c(1,2))
+i=24
+library(ggplot2)
+plot(1:60,cycling9$WATTS[i,1201:1260],xlab='Time (seconds)',ylab='Power (Watts)',type='l',col=2)
+plot(1:60,cycling9$HR[i,1201:1260],xlab='Time (seconds)',ylab='',type='l',col=3,ylim=c(0,200))
+lines(1:60,cycling9$CAD[i,1201:1260],xlab='Time (seconds)',ylab='',type='l',col=4)
+lines(1:60,cycling9$KPH[i,1201:1260],xlab='Time (seconds)',ylab='',type='l',col=5)
+lines(1:60,cycling9$SLOPE[i,1201:1260],xlab='Time (seconds)',ylab='',type='l',col=6)
+lines(1:60,cycling9$TEMP[i,1201:1260],xlab='Time (seconds)',ylab='',type='l',col=7)
+lines(1:60,cycling9$ALT[i,1201:1260],xlab='Time (seconds)',ylab='',type='l',col=8)
+legend('topleft', legend=c("Hearth Rate (BPM)", "Cadence (RPM)", "Speed (KPH)","Slope","Temperature","Altitude"),col=3:8, lty=1, cex=1)
+```
+
+
 ### Application for function-on-function regression
 To explain the daily **precipitation** according to **temperature**, in Canadian weather stations
 
@@ -794,7 +818,7 @@ in Statistics. Springer, New York (2005).*
 \small
 Several works and R package implements concurrent model estimation
 
-- Esitmation through a penalized mixed model:
+- Estimation through a penalized mixed model:
 
 Ivanescu, A., Staicu, A.-M., Scheipl, F., Greven, S.: Penalized function-on-
 function regression. Computational Statistics 30(2), 539–568 (2015)
